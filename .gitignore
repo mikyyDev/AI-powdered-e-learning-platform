@@ -1,0 +1,20 @@
+# Python backend
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+
+# Frontend dependencies and build artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Environment files
+.env
+backend/.env
+frontend/.env
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
