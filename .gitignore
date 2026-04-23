@@ -1,15 +1,32 @@
 # Python backend
 backend/venv/
-backend/__pycache__/
-backend/*.pyc
+backend/.venv/
+backend/**/__pycache__/
+backend/**/*.py[cod]
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+backend/.coverage
+backend/htmlcov/
+
+# Backend local runtime artifacts
+backend/uploads/
+backend/*.db
+backend/*.sqlite
+backend/*.sqlite3
+backend/*.log
 
 # Frontend dependencies and build artifacts
 frontend/node_modules/
 frontend/dist/
 frontend/build/
+frontend/.next/
+frontend/.nuxt/
+frontend/.cache/
 
 # Environment files
 .env
+.env.*
 backend/.env
 frontend/.env
 
